@@ -118,7 +118,7 @@ onUnmounted(() => {
           </p>
         </hgroup>
         <nav aria-label="Social media links">
-          <ul class="flex justify-center space-x-4">
+          <ul class="flex justify-center space-x-4" data-aos="fade-up" data-aos-delay="500">
             <li v-for="(item, index) in sociallinks" :key="index">
               <a
                 :href="item.href"
